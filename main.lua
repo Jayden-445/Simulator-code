@@ -81,7 +81,7 @@ end
 
 for i=1,15 do spawnBall() end
 
--- Xbox controller (if connected)
+
 joysticks = love.joystick.getJoysticks()
 joy = joysticks[1]
 
@@ -816,3 +816,4 @@ function love.draw()
     love.graphics.setFont(love.graphics.newFont(30))
     love.graphics.printf("Score: "..score, 0, 120, WINDOW_WIDTH, "center")
 end
+
